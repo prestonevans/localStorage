@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bids {
+  height: 40%;
+  width: 30vw;
+  min-width: 300px;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.placeBid:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.25rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+button {
+  background-color: cadetblue;
+  border: none;
+  padding: 0.25rem 1rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+button:hover {
+  background-color: #4c7e80;
+  cursor: pointer;
+}
+
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  background-color: cadetblue;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 1.5em;
+  color: white;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
